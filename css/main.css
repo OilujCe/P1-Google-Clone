@@ -53,8 +53,11 @@ main{
     text-align: center;
 }
 
-main .logotipo-majestuoso{
-    width: 530px;
+main .logotipo-majestuoso {
+    background-image:url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+    background-repeat: no repeat;
+    height: 92px;
+    width: 272px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
@@ -63,4 +66,75 @@ main .texton{
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px;
+}
+main .coloca-texto{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .contene-texto{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .coloca-texto input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .contene-texto:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .coloca-texto .contene-texto .lupa{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .coloca-texto .contene-texto .te-escucho{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .pinchale{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .pinchale div{
+    display: inline-block;
+}
+
+main .pinchale button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .pinchale button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+    background-color: #f8f8f8;
+    cursor: pointer;
 }
